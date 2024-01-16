@@ -116,7 +116,8 @@ nav .more{
     width: 100%;
     /* background-color: aqua; */
     margin-top: 1vw;
-    position: relative;
+    /* position: relative; */
+    
 
 }
 #video-con img{
@@ -125,6 +126,46 @@ nav .more{
     object-fit: cover;
 }
 
+.buy-con{
+    position: fixed;
+    bottom:20px;
+    right:25px;
+    z-index: 99;
+    height:14vw;
+    width:14vw;
+    /* background-color: antiquewhite; */
+}
+.buy{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buy h3{
+    position: absolute;
+    
+    
+}
+.buy svg{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    animation: roted 10s infinite linear;
+}
+@keyframes roted {
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
 #video-con video{
     height: 100%;
     width: 100%;
@@ -517,6 +558,7 @@ nav .more{
     margin-bottom: 70px;
 }
 .im-txt{
+    padding: 10px;
     width: 50vh;
     /* background-color: aquamarine; */
     height: 100%;
@@ -848,6 +890,11 @@ footer{
         height: 60px;
         width: 300px;
     }
+    .buy h2{
+        
+        font-size: 10px;
+    } 
+       
 }
 
 @media screen and (min-width:768px) and (max-width:1023px){
