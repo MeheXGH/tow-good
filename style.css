@@ -15,6 +15,7 @@ html,body{
     width: 100%;
 }
 nav{
+    pointer-events: none;
     /* background-color: red; */
     height: auto;
     width: 100%;
@@ -31,6 +32,7 @@ nav{
     height: 85px;
     width: auto;
     overflow: hidden;
+    pointer-events:fill;
     
 
     
@@ -67,6 +69,8 @@ nav .more{
     justify-content: space-around;
     height: 35px;
     width: 40%;
+    pointer-events:fill;
+
     
 
     
@@ -308,13 +312,13 @@ nav .more{
 }
 .p3-head{
     /* background-color: red; */
-    height: 50vh;
+    height: auto;
     display: flex;
     align-items:flex-start;
     justify-content:flex-start;
     gap: 40vh;
     padding: 2vh;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 
 }
 .p3-left{
@@ -405,11 +409,11 @@ nav .more{
     display: flex;
     align-items: center;
 }
-.dot h1{
-    /* display: none; */
+/* .dot h1{
+    display: none; 
     
 
-}
+}  */
 .dot h2{
     font-size: 55px;
     line-height: 42px;
@@ -457,6 +461,7 @@ nav .more{
     
 }
 .output h1{
+    /* background-color: aquamarine; */
     font-size: 10vh;
     line-height: 11vh;
 }
@@ -655,6 +660,7 @@ footer{
     align-items: center;
     justify-content: center;
     padding: 5vh;
+
 }
 .footer-down h3{
     width: 60%;
@@ -689,7 +695,7 @@ footer{
 
     }
     #video-con{
-        height: 25vh;
+        height: 50vh;
         
     
     }
@@ -713,6 +719,8 @@ footer{
     }
     .p3-head{
         gap: 2vh;
+        flex-wrap: wrap;
+
     }
     .p3-left h1{
         font-size: 4.5vh;
@@ -737,7 +745,7 @@ footer{
     }
     .item{
         height: 50vh;
-        width: 50vh;
+        width: auto;
     }
     
     .scrl-item{
@@ -827,10 +835,39 @@ footer{
         text-align: start;
         
     }
+    .footer-down{
+        width: 100%;
+    }
     .footer-down h3{
-        width: 60%;
+        width: 100%;
         font-size: 7px;
         font-weight: 400;
         text-align: center;
+    }
+    .msg{
+        height: 60px;
+        width: 300px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px){
+    .p2-con{
+        flex-direction: column;
+    }
+    #page2 .elem{
+        height: 100%;
+        width: 100%;
+        margin: 1.5vh 0;
+       
+        
+        
+    }
+    .nav-right{
+        width: 45%;
+    }
+    .p3-head{
+        gap: 2vh;
+        flex-wrap: wrap;
+
     }
 }
