@@ -204,252 +204,273 @@ function cursorAni(){
 cursorAni();
 
 
-document.querySelector(".user1").addEventListener("click", function(){
-    document.querySelector(".user1 h2").style.display = "block";
-    document.querySelector(".user1 h1").style.display = "none";
+// document.querySelector(".user1").addEventListener("click", function(){
+//     document.querySelector(".user1 h2").style.display = "block";
+//     document.querySelector(".user1 h1").style.display = "none";
 
-    document.querySelector(".user2 h2").style.display = "none";
-    document.querySelector(".user3 h2").style.display = "none";
-    document.querySelector(".user4 h2").style.display = "none";
-    document.querySelector(".user5 h2").style.display = "none";
-    document.querySelector(".user6 h2").style.display = "none";
-
-
-
-    document.querySelector(".user2 h1").style.display = "block";
-    document.querySelector(".user3 h1").style.display = "block";
-    document.querySelector(".user4 h1").style.display = "block";
-    document.querySelector(".user5 h1").style.display = "block";
-    document.querySelector(".user6 h1").style.display = "block";
+//     document.querySelector(".user2 h2").style.display = "none";
+//     document.querySelector(".user3 h2").style.display = "none";
+//     document.querySelector(".user4 h2").style.display = "none";
+//     document.querySelector(".user5 h2").style.display = "none";
+//     document.querySelector(".user6 h2").style.display = "none";
 
 
 
-    document.querySelector(".out1").style.display = "block";
-
-    document.querySelector(".out2").style.display = "none";
-    document.querySelector(".out3").style.display = "none";
-    document.querySelector(".out4").style.display = "none";
-    document.querySelector(".out5").style.display = "none";
-    document.querySelector(".out6").style.display = "none";
+//     document.querySelector(".user2 h1").style.display = "block";
+//     document.querySelector(".user3 h1").style.display = "block";
+//     document.querySelector(".user4 h1").style.display = "block";
+//     document.querySelector(".user5 h1").style.display = "block";
+//     document.querySelector(".user6 h1").style.display = "block";
 
 
 
-    document.querySelector(".user1 img").style.display = "block";
+//     document.querySelector(".out1").style.display = "block";
 
-    document.querySelector(".user2 img").style.display = "none";
-    document.querySelector(".user3 img").style.display = "none";
-    document.querySelector(".user4 img").style.display = "none";
-    document.querySelector(".user5 img").style.display = "none";
-    document.querySelector(".user6 img").style.display = "none";
-
-});
+//     document.querySelector(".out2").style.display = "none";
+//     document.querySelector(".out3").style.display = "none";
+//     document.querySelector(".out4").style.display = "none";
+//     document.querySelector(".out5").style.display = "none";
+//     document.querySelector(".out6").style.display = "none";
 
 
 
-document.querySelector(".user2").addEventListener("click", function(){
-    document.querySelector(".user2 h2").style.display = "block";
-    document.querySelector(".user2 h1").style.display = "none";
+//     document.querySelector(".user1 img").style.display = "block";
 
-    document.querySelector(".user1 h2").style.display = "none";
-    document.querySelector(".user3 h2").style.display = "none";
-    document.querySelector(".user4 h2").style.display = "none";
-    document.querySelector(".user5 h2").style.display = "none";
-    document.querySelector(".user6 h2").style.display = "none";
+//     document.querySelector(".user2 img").style.display = "none";
+//     document.querySelector(".user3 img").style.display = "none";
+//     document.querySelector(".user4 img").style.display = "none";
+//     document.querySelector(".user5 img").style.display = "none";
+//     document.querySelector(".user6 img").style.display = "none";
 
-
-
-    document.querySelector(".user1 h1").style.display = "block";
-    document.querySelector(".user3 h1").style.display = "block";
-    document.querySelector(".user4 h1").style.display = "block";
-    document.querySelector(".user5 h1").style.display = "block";
-    document.querySelector(".user6 h1").style.display = "block";
+// });
 
 
 
-    document.querySelector(".out2").style.display = "block";
-    document.querySelector(".out1").style.display = "none";
-    document.querySelector(".out3").style.display = "none";
-    document.querySelector(".out4").style.display = "none";
-    document.querySelector(".out5").style.display = "none";
-    document.querySelector(".out6").style.display = "none";
+// document.querySelector(".user2").addEventListener("click", function(){
+//     document.querySelector(".user2 h2").style.display = "block";
+//     document.querySelector(".user2 h1").style.display = "none";
+
+//     document.querySelector(".user1 h2").style.display = "none";
+//     document.querySelector(".user3 h2").style.display = "none";
+//     document.querySelector(".user4 h2").style.display = "none";
+//     document.querySelector(".user5 h2").style.display = "none";
+//     document.querySelector(".user6 h2").style.display = "none";
 
 
 
-    document.querySelector(".user2 img").style.display = "block";
-    document.querySelector(".user1 img").style.display = "none";
-    document.querySelector(".user3 img").style.display = "none";
-    document.querySelector(".user4 img").style.display = "none";
-    document.querySelector(".user5 img").style.display = "none";
-    document.querySelector(".user6 img").style.display = "none";
-
-});
+//     document.querySelector(".user1 h1").style.display = "block";
+//     document.querySelector(".user3 h1").style.display = "block";
+//     document.querySelector(".user4 h1").style.display = "block";
+//     document.querySelector(".user5 h1").style.display = "block";
+//     document.querySelector(".user6 h1").style.display = "block";
 
 
 
-document.querySelector(".user3").addEventListener("click", function(){
+//     document.querySelector(".out2").style.display = "block";
+//     document.querySelector(".out1").style.display = "none";
+//     document.querySelector(".out3").style.display = "none";
+//     document.querySelector(".out4").style.display = "none";
+//     document.querySelector(".out5").style.display = "none";
+//     document.querySelector(".out6").style.display = "none";
+
+
+
+//     document.querySelector(".user2 img").style.display = "block";
+//     document.querySelector(".user1 img").style.display = "none";
+//     document.querySelector(".user3 img").style.display = "none";
+//     document.querySelector(".user4 img").style.display = "none";
+//     document.querySelector(".user5 img").style.display = "none";
+//     document.querySelector(".user6 img").style.display = "none";
+
+// });
+
+
+
+// document.querySelector(".user3").addEventListener("click", function(){
     
-    document.querySelector(".user3 h2").style.display = "block";
-    document.querySelector(".user3 h1").style.display = "none";
+//     document.querySelector(".user3 h2").style.display = "block";
+//     document.querySelector(".user3 h1").style.display = "none";
 
 
-    document.querySelector(".user1 h2").style.display = "none";
-    document.querySelector(".user2 h2").style.display = "none";
-    document.querySelector(".user4 h2").style.display = "none";
-    document.querySelector(".user5 h2").style.display = "none";
-    document.querySelector(".user6 h2").style.display = "none";
+//     document.querySelector(".user1 h2").style.display = "none";
+//     document.querySelector(".user2 h2").style.display = "none";
+//     document.querySelector(".user4 h2").style.display = "none";
+//     document.querySelector(".user5 h2").style.display = "none";
+//     document.querySelector(".user6 h2").style.display = "none";
 
-    document.querySelector(".user1 h1").style.display = "block";
-    document.querySelector(".user2 h1").style.display = "block";
-    document.querySelector(".user4 h1").style.display = "block";
-    document.querySelector(".user5 h1").style.display = "block";
-    document.querySelector(".user6 h1").style.display = "block";
-
-
-    document.querySelector(".out3").style.display = "block";
-    document.querySelector(".out1").style.display = "none";
-    document.querySelector(".out2").style.display = "none";
-    document.querySelector(".out4").style.display = "none";
-    document.querySelector(".out5").style.display = "none";
-    document.querySelector(".out6").style.display = "none";
+//     document.querySelector(".user1 h1").style.display = "block";
+//     document.querySelector(".user2 h1").style.display = "block";
+//     document.querySelector(".user4 h1").style.display = "block";
+//     document.querySelector(".user5 h1").style.display = "block";
+//     document.querySelector(".user6 h1").style.display = "block";
 
 
-    document.querySelector(".user3 img").style.display = "block";
-    document.querySelector(".user1 img").style.display = "none";
-    document.querySelector(".user2 img").style.display = "none";
-    document.querySelector(".user4 img").style.display = "none";
-    document.querySelector(".user5 img").style.display = "none";
-    document.querySelector(".user6 img").style.display = "none";
-})
+//     document.querySelector(".out3").style.display = "block";
+//     document.querySelector(".out1").style.display = "none";
+//     document.querySelector(".out2").style.display = "none";
+//     document.querySelector(".out4").style.display = "none";
+//     document.querySelector(".out5").style.display = "none";
+//     document.querySelector(".out6").style.display = "none";
 
 
-
-document.querySelector(".user4").addEventListener("click", function(){
-    document.querySelector(".user4 h2").style.display = "block";
-    document.querySelector(".user4 h1").style.display = "none";
-
-    document.querySelector(".user2 h2").style.display = "none";
-    document.querySelector(".user3 h2").style.display = "none";
-    document.querySelector(".user1 h2").style.display = "none";
-    document.querySelector(".user5 h2").style.display = "none";
-    document.querySelector(".user6 h2").style.display = "none";
+//     document.querySelector(".user3 img").style.display = "block";
+//     document.querySelector(".user1 img").style.display = "none";
+//     document.querySelector(".user2 img").style.display = "none";
+//     document.querySelector(".user4 img").style.display = "none";
+//     document.querySelector(".user5 img").style.display = "none";
+//     document.querySelector(".user6 img").style.display = "none";
+// })
 
 
 
-    document.querySelector(".user2 h1").style.display = "block";
-    document.querySelector(".user3 h1").style.display = "block";
-    document.querySelector(".user1 h1").style.display = "block";
-    document.querySelector(".user5 h1").style.display = "block";
-    document.querySelector(".user6 h1").style.display = "block";
+// document.querySelector(".user4").addEventListener("click", function(){
+//     document.querySelector(".user4 h2").style.display = "block";
+//     document.querySelector(".user4 h1").style.display = "none";
+
+//     document.querySelector(".user2 h2").style.display = "none";
+//     document.querySelector(".user3 h2").style.display = "none";
+//     document.querySelector(".user1 h2").style.display = "none";
+//     document.querySelector(".user5 h2").style.display = "none";
+//     document.querySelector(".user6 h2").style.display = "none";
 
 
 
-    document.querySelector(".out4").style.display = "block";
-
-    document.querySelector(".out2").style.display = "none";
-    document.querySelector(".out3").style.display = "none";
-    document.querySelector(".out1").style.display = "none";
-    document.querySelector(".out5").style.display = "none";
-    document.querySelector(".out6").style.display = "none";
+//     document.querySelector(".user2 h1").style.display = "block";
+//     document.querySelector(".user3 h1").style.display = "block";
+//     document.querySelector(".user1 h1").style.display = "block";
+//     document.querySelector(".user5 h1").style.display = "block";
+//     document.querySelector(".user6 h1").style.display = "block";
 
 
 
-    document.querySelector(".user4 img").style.display = "block";
+//     document.querySelector(".out4").style.display = "block";
 
-    document.querySelector(".user2 img").style.display = "none";
-    document.querySelector(".user3 img").style.display = "none";
-    document.querySelector(".user1 img").style.display = "none";
-    document.querySelector(".user5 img").style.display = "none";
-    document.querySelector(".user6 img").style.display = "none";
-
-});
+//     document.querySelector(".out2").style.display = "none";
+//     document.querySelector(".out3").style.display = "none";
+//     document.querySelector(".out1").style.display = "none";
+//     document.querySelector(".out5").style.display = "none";
+//     document.querySelector(".out6").style.display = "none";
 
 
 
-document.querySelector(".user5").addEventListener("click", function(){
-    document.querySelector(".user5 h2").style.display = "block";
-    document.querySelector(".user5 h1").style.display = "none";
+//     document.querySelector(".user4 img").style.display = "block";
 
-    document.querySelector(".user2 h2").style.display = "none";
-    document.querySelector(".user3 h2").style.display = "none";
-    document.querySelector(".user4 h2").style.display = "none";
-    document.querySelector(".user1 h2").style.display = "none";
-    document.querySelector(".user6 h2").style.display = "none";
+//     document.querySelector(".user2 img").style.display = "none";
+//     document.querySelector(".user3 img").style.display = "none";
+//     document.querySelector(".user1 img").style.display = "none";
+//     document.querySelector(".user5 img").style.display = "none";
+//     document.querySelector(".user6 img").style.display = "none";
 
-
-
-    document.querySelector(".user2 h1").style.display = "block";
-    document.querySelector(".user3 h1").style.display = "block";
-    document.querySelector(".user4 h1").style.display = "block";
-    document.querySelector(".user1 h1").style.display = "block";
-    document.querySelector(".user6 h1").style.display = "block";
+// });
 
 
 
-    document.querySelector(".out5").style.display = "block";
+// document.querySelector(".user5").addEventListener("click", function(){
+//     document.querySelector(".user5 h2").style.display = "block";
+//     document.querySelector(".user5 h1").style.display = "none";
 
-    document.querySelector(".out2").style.display = "none";
-    document.querySelector(".out3").style.display = "none";
-    document.querySelector(".out4").style.display = "none";
-    document.querySelector(".out1").style.display = "none";
-    document.querySelector(".out6").style.display = "none";
+//     document.querySelector(".user2 h2").style.display = "none";
+//     document.querySelector(".user3 h2").style.display = "none";
+//     document.querySelector(".user4 h2").style.display = "none";
+//     document.querySelector(".user1 h2").style.display = "none";
+//     document.querySelector(".user6 h2").style.display = "none";
 
 
 
-    document.querySelector(".user5 img").style.display = "block";
+//     document.querySelector(".user2 h1").style.display = "block";
+//     document.querySelector(".user3 h1").style.display = "block";
+//     document.querySelector(".user4 h1").style.display = "block";
+//     document.querySelector(".user1 h1").style.display = "block";
+//     document.querySelector(".user6 h1").style.display = "block";
+
+
+
+//     document.querySelector(".out5").style.display = "block";
+
+//     document.querySelector(".out2").style.display = "none";
+//     document.querySelector(".out3").style.display = "none";
+//     document.querySelector(".out4").style.display = "none";
+//     document.querySelector(".out1").style.display = "none";
+//     document.querySelector(".out6").style.display = "none";
+
+
+
+//     document.querySelector(".user5 img").style.display = "block";
     
-    document.querySelector(".user2 img").style.display = "none";
-    document.querySelector(".user3 img").style.display = "none";
-    document.querySelector(".user4 img").style.display = "none";
-    document.querySelector(".user1 img").style.display = "none";
-    document.querySelector(".user6 img").style.display = "none";
+//     document.querySelector(".user2 img").style.display = "none";
+//     document.querySelector(".user3 img").style.display = "none";
+//     document.querySelector(".user4 img").style.display = "none";
+//     document.querySelector(".user1 img").style.display = "none";
+//     document.querySelector(".user6 img").style.display = "none";
 
-});
-
-
-
-document.querySelector(".user6").addEventListener("click", function(){
-    document.querySelector(".user6 h2").style.display = "block";
-    document.querySelector(".user6 h1").style.display = "none";
-
-    document.querySelector(".user2 h2").style.display = "none";
-    document.querySelector(".user3 h2").style.display = "none";
-    document.querySelector(".user4 h2").style.display = "none";
-    document.querySelector(".user5 h2").style.display = "none";
-    document.querySelector(".user1 h2").style.display = "none";
+// });
 
 
 
-    document.querySelector(".user2 h1").style.display = "block";
-    document.querySelector(".user3 h1").style.display = "block";
-    document.querySelector(".user4 h1").style.display = "block";
-    document.querySelector(".user5 h1").style.display = "block";
-    document.querySelector(".user1 h1").style.display = "block";
+// document.querySelector(".user6").addEventListener("click", function(){
+//     document.querySelector(".user6 h2").style.display = "block";
+//     document.querySelector(".user6 h1").style.display = "none";
+
+//     document.querySelector(".user2 h2").style.display = "none";
+//     document.querySelector(".user3 h2").style.display = "none";
+//     document.querySelector(".user4 h2").style.display = "none";
+//     document.querySelector(".user5 h2").style.display = "none";
+//     document.querySelector(".user1 h2").style.display = "none";
 
 
 
-    document.querySelector(".out6").style.display = "block";
-
-    document.querySelector(".out2").style.display = "none";
-    document.querySelector(".out3").style.display = "none";
-    document.querySelector(".out4").style.display = "none";
-    document.querySelector(".out5").style.display = "none";
-    document.querySelector(".out1").style.display = "none";
+//     document.querySelector(".user2 h1").style.display = "block";
+//     document.querySelector(".user3 h1").style.display = "block";
+//     document.querySelector(".user4 h1").style.display = "block";
+//     document.querySelector(".user5 h1").style.display = "block";
+//     document.querySelector(".user1 h1").style.display = "block";
 
 
 
-    document.querySelector(".user6 img").style.display = "block";
+//     document.querySelector(".out6").style.display = "block";
+
+//     document.querySelector(".out2").style.display = "none";
+//     document.querySelector(".out3").style.display = "none";
+//     document.querySelector(".out4").style.display = "none";
+//     document.querySelector(".out5").style.display = "none";
+//     document.querySelector(".out1").style.display = "none";
+
+
+
+//     document.querySelector(".user6 img").style.display = "block";
     
-    document.querySelector(".user2 img").style.display = "none";
-    document.querySelector(".user3 img").style.display = "none";
-    document.querySelector(".user4 img").style.display = "none";
-    document.querySelector(".user5 img").style.display = "none";
-    document.querySelector(".user1 img").style.display = "none";
+//     document.querySelector(".user2 img").style.display = "none";
+//     document.querySelector(".user3 img").style.display = "none";
+//     document.querySelector(".user4 img").style.display = "none";
+//     document.querySelector(".user5 img").style.display = "none";
+//     document.querySelector(".user1 img").style.display = "none";
 
-});
-
-
+// });
 
 
+// Function to handle user selection
+function handleUserSelection(userNumber) {
+    // Reset all elements
+    for (let i = 1; i <= 6; i++) {
+        const userSelector = `.user${i}`;
+        const outSelector = `.out${i}`;
+        const h1Selector = `${userSelector} h1`;
+        const h2Selector = `${userSelector} h2`;
+        const imgSelector = `${userSelector} img`;
+
+        // Display or hide elements based on user selection
+        document.querySelector(h2Selector).style.display = i === userNumber ? "block" : "none";
+        document.querySelector(h1Selector).style.display = i !== userNumber ? "block" : "none";
+        document.querySelector(outSelector).style.display = i === userNumber ? "block" : "none";
+        document.querySelector(imgSelector).style.display = i === userNumber ? "block" : "none";
+    }
+}
+
+// Event listeners for each user
+for (let i = 1; i <= 6; i++) {
+    const userSelector = `.user${i}`;
+document.querySelector(userSelector).addEventListener("click", () => handleUserSelection(i));
+}
 
 
 

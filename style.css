@@ -434,12 +434,17 @@ nav .more{
 
 }
 .p4-scroll{
+    width: 100vw;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    /* white-space:nowrap ;
+    overflow-y: hidden; 
+    overflow-x: scroll; */
     /* background-color: black; */
 }
 .scrl-item{
+    /* flex-shrink: 0; */
     /* background-color: aqua; */
     height: 150px;
     width: 200px;
