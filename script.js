@@ -1,7 +1,11 @@
-const scroll = new LocomotiveScroll({
-    el: document.querySelector('#main'),
-    smooth: true
-});
+const locoScroll = new LocomotiveScroll({
+    el: document.querySelector("#main"),
+    smooth: true,
+    tablet: {
+      breakpoint: 0,   
+    }
+  })
+
 
 
 function locoAni(){
